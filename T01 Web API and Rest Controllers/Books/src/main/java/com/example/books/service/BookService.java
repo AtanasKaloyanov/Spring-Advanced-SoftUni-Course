@@ -47,4 +47,10 @@ public class BookService {
                 .map(this::mapFromBookToBookDTO)
                 .collect(Collectors.toList());
     }
+
+    public Long createBook(BookDTO bookDTO) {
+        // TODO:
+
+        return 50L;
+    }
 }
